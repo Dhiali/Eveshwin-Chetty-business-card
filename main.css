@@ -1,7 +1,9 @@
 /* Base styles for mobile devices */
 body {
     margin: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -37,18 +39,24 @@ header {
     font-size: 34px; /* Adjusted for mobile */
     font-weight: 800;
     margin: 0;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .header-subheading {
     font-size: 20px; /* Adjusted for mobile */
     font-weight: 700;
     margin: 0;
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    font-size: 14px; /* Adjusted for mobile */
+    font-size: 12px; /* Adjusted for mobile */
     margin: 20px 0;
 }
 
