@@ -99,7 +99,7 @@ li::before {
      /* Vertically center the image within the container */
     justify-content: center;
     width: 100%;
-    
+    transform: translateX(100px)
 }
 
 .headerBottom img {
