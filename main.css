@@ -91,11 +91,13 @@ li::before {
 }
 
 .headerBottom {
+    display: flex;
+    align-items: center; /* Vertically center the image within the container */
+    justify-content: center; /* Center the image horizontally */
     margin-top: 20px; /* Adjust margin to position below the list */
     padding: 20px 0;
     width: 100%;
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
+    height: 100vh; /* Ensure the height is enough to center the image */
 }
 
 .headerBottom img {
