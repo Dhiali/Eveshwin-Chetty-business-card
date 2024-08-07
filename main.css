@@ -106,7 +106,7 @@ li::before {
     width: 100%; /* Ensure the image takes full width */
     max-width: 100%;
     height: auto;
-    display: block; /* Ensure the image is displayed as a block element */
+    display: flex; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
 }
 
