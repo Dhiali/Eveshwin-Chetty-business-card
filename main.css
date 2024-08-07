@@ -91,20 +91,23 @@ li::before {
 }
 
 .headerBottom {
+    
     display: flex;
     align-items: center; /* Vertically center the image within the container */
     justify-content: center; /* Center the image horizontally */
-    margin-top: 20px; /* Adjust margin to position below the list */
+    margin-top: auto;/* Adjust margin to position below the list */
+    margin-left: 90px; /* Move .headerBottom to the left */
     padding: 20px 0;
     width: 100%;
-    height: 100vh; /* Ensure the height is enough to center the image */
+    height: 100vh; /
 }
 
 .headerBottom img {
-    width: 90%; /* Adjust as needed */
-    max-width: 100%; /* Ensure the image doesn't exceed 100% of the container's width */
+    width: 100%; /* Make the image wider */
+    max-width: 100%; /* Ensure the image doesn't exceed 95% of the container's width */
     height: auto;
     display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 footer {
@@ -137,5 +140,7 @@ footer {
     .headerBottom img {
         max-width: 100%;
         height: auto;
+        text-align: center;
+      
     }
 }
