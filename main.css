@@ -54,7 +54,7 @@ ul {
 li {
     margin-bottom: 10px;
     position: relative;
-    padding-left: 50px;
+    padding-left: 48px;
 }
 
 li::before {
@@ -93,13 +93,13 @@ li::before {
 .headerBottom {
     margin-top: auto;
     padding: 20px 0;
-    text-align: center;
+    align-items: center;
     width: 100%;
 }
 
 .headerBottom img {
-    width: 95%; /* Make the image wider */
-    max-width: 95%; /* Ensure the image doesn't exceed 95% of the container's width */
+    width: 100%; /* Make the image wider */
+    max-width: 100%; /* Ensure the image doesn't exceed 95% of the container's width */
     height: auto;
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
