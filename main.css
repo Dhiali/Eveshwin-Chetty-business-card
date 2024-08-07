@@ -91,15 +91,10 @@ li::before {
 }
 
 .headerBottom {
-    
-    display: flex;
-    align-items: center; /* Vertically center the image within the container */
-    justify-content: center; /* Center the image horizontally */
-    margin-top: auto;/* Adjust margin to position below the list */
-    margin-left: 90px; /* Move .headerBottom to the left */
+    margin-top: auto;
     padding: 20px 0;
+    align-items: center;
     width: 100%;
-    
 }
 
 .headerBottom img {
@@ -141,6 +136,5 @@ footer {
         max-width: 100%;
         height: auto;
         text-align: center;
-      
     }
 }
