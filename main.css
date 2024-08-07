@@ -93,20 +93,20 @@ li::before {
 
 .headerBottom {
     display: flex;
-    margin-top: 20px; /* Space between content and image */
-    padding: 20px 0;
-    align-items: center;
-     /* Vertically center the image within the container */
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Space between content and image */
+    padding: 20px 0;
     width: 100%;
-    transform: translateX(100px)
+   
 }
 
 .headerBottom img {
-    width: 100%; /* Ensure the image takes full width */
+    width: 90%; /* Ensure the image takes full width */
     max-width: 100%;
     height: auto;
-    display: flex; /* Ensure the image is displayed as a block element */
+    display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
 }
 
@@ -121,11 +121,7 @@ footer {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
     .headerBottom {
-        
-        align-items: center;
-         /* Vertically center the image within the container */
-        justify-content: center;
-        width: 100%;
-        transform: translateX(100px)
+        margin-top: 20px; /* Space above the image */
+        transform: none; /* Remove any previous transform *
     } /* The styles here are specific to mobile devices */
 }
