@@ -92,12 +92,14 @@ li::before {
 }
 
 .headerBottom {
+    display: flex;
     margin-top: 20px; /* Space between content and image */
     padding: 20px 0;
     align-items: center;
      /* Vertically center the image within the container */
     justify-content: center;
     width: 100%;
+    
 }
 
 .headerBottom img {
