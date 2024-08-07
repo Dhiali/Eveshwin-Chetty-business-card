@@ -122,6 +122,6 @@ footer {
 @media (max-width: 768px) {
     .headerBottom {
         margin-top: 20px; /* Space above the image */
-        transform: none; /* Remove any previous transform *
+    margin-left: 20px; /* Remove any previous transform *
     } /* The styles here are specific to mobile devices */
 }
