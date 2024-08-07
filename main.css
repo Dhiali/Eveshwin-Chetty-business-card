@@ -1,3 +1,4 @@
+/* Base styles for mobile devices */
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -6,7 +7,7 @@ body {
 header {
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: auto; /* Allow the header to grow with content */
     padding: 20px;
     position: relative;
     display: flex;
@@ -33,13 +34,13 @@ header {
 }
 
 .header-heading {
-    font-size: 30px;
+    font-size: 34px; /* Adjusted for mobile */
     font-weight: 800;
     margin: 0;
 }
 
 .header-subheading {
-    font-size: 18px;
+    font-size: 20px; /* Adjusted for mobile */
     font-weight: 700;
     margin: 0;
 }
@@ -47,7 +48,7 @@ header {
 ul {
     list-style-type: none;
     padding: 0;
-    font-size: 14px;
+    font-size: 14px; /* Adjusted for mobile */
     margin: 20px 0;
 }
 
@@ -91,15 +92,17 @@ li::before {
 }
 
 .headerBottom {
-    margin-top: auto;
+    margin-top: 20px; /* Space between content and image */
     padding: 20px 0;
     align-items: center;
+     /* Vertically center the image within the container */
+    justify-content: center;
     width: 100%;
 }
 
 .headerBottom img {
-    width: 100%; /* Make the image wider */
-    max-width: 100%; /* Ensure the image doesn't exceed 95% of the container's width */
+    width: 100%; /* Ensure the image takes full width */
+    max-width: 100%;
     height: auto;
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto; /* Center the image horizontally */
@@ -113,28 +116,7 @@ footer {
     font-size: 12px;
 }
 
-/* Ensure the design works well on small screens */
+/* Mobile-specific styles */
 @media (max-width: 768px) {
-    .header-heading {
-        font-size: 34px;
-    }
-
-    .header-subheading {
-        font-size: 20px;
-    }
-
-    ul {
-        font-size: 14px;
-    }
-
-    .book-now-button {
-        font-size: 12px;
-        padding: 8px 16px;
-    }
-
-    .headerBottom img {
-        max-width: 100%;
-        height: auto;
-        text-align: center;
-    }
+    /* The styles here are specific to mobile devices */
 }
