@@ -120,5 +120,12 @@ footer {
 
 /* Mobile-specific styles */
 @media (max-width: 768px) {
-    /* The styles here are specific to mobile devices */
+    .headerBottom {
+        
+        align-items: center;
+         /* Vertically center the image within the container */
+        justify-content: center;
+        width: 100%;
+        transform: translateX(100px)
+    } /* The styles here are specific to mobile devices */
 }
