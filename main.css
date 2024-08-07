@@ -91,18 +91,18 @@ li::before {
 }
 
 .headerBottom {
-    margin-top: auto;
+    margin-top: 20px; /* Adjust margin to position below the list */
     padding: 20px 0;
-    align-items: center;
     width: 100%;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
 }
 
 .headerBottom img {
-    width: 100%; /* Make the image wider */
-    max-width: 100%; /* Ensure the image doesn't exceed 95% of the container's width */
+    width: 90%; /* Adjust as needed */
+    max-width: 100%; /* Ensure the image doesn't exceed 100% of the container's width */
     height: auto;
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto; /* Center the image horizontally */
 }
 
 footer {
@@ -135,6 +135,5 @@ footer {
     .headerBottom img {
         max-width: 100%;
         height: auto;
-        text-align: center;
     }
 }
