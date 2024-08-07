@@ -16,6 +16,13 @@ header {
     color: white;
 }
 
+.headerTop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
 .headerTop img {
     width: 60px;
 }
@@ -55,8 +62,8 @@ li::before {
     position: absolute;
     left: 0;
     top: 50%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     background-image: url('assets/point.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,10 +94,13 @@ li::before {
     margin-top: auto;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
 }
 
 .headerBottom img {
-    max-width: 80%;
+    width: 90%;
+    max-width: 90%;
+    height: auto;
 }
 
 footer {
@@ -104,19 +114,24 @@ footer {
 /* Ensure the design works well on small screens */
 @media (max-width: 768px) {
     .header-heading {
-        font-size: 24px;
+        font-size: 34px;
     }
 
     .header-subheading {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     ul {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .book-now-button {
         font-size: 12px;
         padding: 8px 16px;
+    }
+
+    .headerBottom img {
+        max-width: 100%;
+    height: auto;
     }
 }
