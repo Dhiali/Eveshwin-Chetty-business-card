@@ -96,7 +96,7 @@ li::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 100px ; /* Space between content and image */
+    margin-left: 70px ; /* Space between content and image */
     padding: 20px 0;
     width: 100%;
    
