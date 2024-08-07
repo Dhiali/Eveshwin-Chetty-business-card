@@ -17,6 +17,7 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
+    
 }
 
 .headerTop {
@@ -28,6 +29,7 @@ header {
 
 .headerTop img {
     width: 60px;
+    
 }
 
 .header-content {
